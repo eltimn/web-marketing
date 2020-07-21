@@ -2,10 +2,10 @@
 layout: home
 title: TradeLlama
 metaDesc: TradeLlama applies creative thinking and machine learning to large
-  volume trade data, so asset managers can understand the influence of
-  individual portfolio managers on trends.
+  volume trade data, so asset managers can better understand the behavior of
+  portfolio managers.
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ""
 ---
-TradeLlama applies creative thinking and machine learning to large volume trade data, so asset managers can understand the influence of individual portfolio managers on trends.
+TradeLlama applies creative thinking and machine learning to large volume trade data, so asset managers can better understand the behavior of portfolio managers.
