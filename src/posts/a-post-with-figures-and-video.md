@@ -6,11 +6,11 @@ tags:
 ---
 Besides being the national animal of Bolivia, they are fun to look at.
 
-![We will talk more about llamas.](/images/llama.jpg "Brutalism at its finest. Photo by Artificial Photography on Unsplash.")
+![We will talk more about llamas.](/images/llama.jpg "Photo taken from Wikipedia.")
 
-You can also add videos to posts from YouTube or Vimeo (or wherever, really) and the front-end will also make those bleed-out for you too.
+Also, we're animal friendly at HQ.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_38JDGnr0vA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="<https://www.youtube.com/watch?v=0MWOyxL4Wjk&t=20s>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Finally, how about a `<blockquote>`?
 
