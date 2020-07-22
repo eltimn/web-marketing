@@ -1,5 +1,5 @@
 ---
-title: A Note From Our CEO
+title: A note from our CEO...
 date: 2020-07-22T22:19:04.463Z
 tags:
   - neil-visnapuu
