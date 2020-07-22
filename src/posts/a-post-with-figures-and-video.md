@@ -1,5 +1,5 @@
 ---
-title: Just Some Llamas
+title: Just some llamas...
 date: 2020-07-21T22:36:00.000Z
 tags:
   - llamas
