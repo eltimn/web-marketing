@@ -8,7 +8,7 @@ When I was a kid, I was lucky enough to spend time bantering with the CEO of a l
 
 After twenty some years in software, I get his point(s). One of the best things about having your own company is you get to communicate with clients in your own way. And if you can do that well, a lot of the battle is already won.
 
-That CEO had an impact on me that isn’t fairly ensconced in a quick note, but there is one thing in all of it that strikes me as more than coincidence. At a major inflection point in his career, his entire team left IBM with him to start a new company that went on to literally change the world of computing forever. And in the lore around that, they were a very close knit team, perhaps even flung together due to their own mildly misfit personas. The history there, and the characters behind Seagate always resonated with me. So did the “Keep It Simple, Stupid” glass piece on his desk.
+That CEO had an impact on me that isn’t done justice in a quick note, but there is one thing in all of it that strikes me as more than coincidence. At a major inflection point in his career, his entire team left IBM with him to start a new company that went on to literally change the world of computing forever. And in the lore around that, they were a very close knit team, perhaps even flung together due to their own mildly misfit personas. The history there, and the characters behind Seagate always resonated with me. So did the “Keep It Simple, Stupid” glass piece on his desk.
 
 I think more and more the reasons for “why TradeLlama?“ have as much to do with those years learning (by proximity) about Seagate, as it does with the mashing together of all the collective skills the Llama team brings to bear.
 
