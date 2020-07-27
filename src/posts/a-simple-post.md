@@ -1,5 +1,5 @@
 ---
-title: A note from our CEO...
+title: Earnest, & Authentic - TradeLlama
 date: 2020-07-27T19:31:07.026Z
 tags:
   - neil-visnapuu
