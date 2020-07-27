@@ -1,6 +1,6 @@
 ---
 title: A note from our CEO...
-date: 2020-07-22T22:19:04.463Z
+date: 2020-08-01T16:00:00.000Z
 tags:
   - neil-visnapuu
 ---
