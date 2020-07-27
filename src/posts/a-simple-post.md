@@ -1,5 +1,5 @@
 ---
-title: Earnest, & Authentic - TradeLlama
+title: Earnest, & Authentic - Our CEO Wants You to Know Why We're Here
 date: 2020-07-27T19:31:07.026Z
 tags:
   - neil-visnapuu
