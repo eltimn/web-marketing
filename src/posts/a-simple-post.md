@@ -1,6 +1,6 @@
 ---
 title: Ernest, & Authentic - Our CEO Wants You to Know Why We're Here
-date: 2020-07-27T19:31:07.026Z
+date: 2020-07-30T16:51:31.694Z
 tags:
   - neil-visnapuu
 ---
