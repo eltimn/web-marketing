@@ -1,5 +1,5 @@
 ---
-title: 'Get I Touch'
+title: 'Get In Touch'
 subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
 permalink: '/get-in-touch/index.html'
 imageUrl: '/images/svg/get-in-touch.svg'
