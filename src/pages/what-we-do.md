@@ -11,7 +11,7 @@ firstIpbImageUrl: '/images/svg/client-considerations.svg'
 secondIpbTitle: A Path Forward
 secondIpbText: Architecture that is designed for collaboration on trade data, leveraging ML, real-world experience, and modern cloud-native tools.
 secondIpbImageUrl: '/images/svg/path-forward.svg'
-linkBarLink: '/get-in-catch/index.html'
+linkBarLink: '/get-in-touch/index.html'
 textBarText: 'Now you know what we do, find out more'
 linkBarImageUrl: '/images/svg/get-in-touch.svg'
 ---
