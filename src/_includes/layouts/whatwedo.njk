@@ -1,0 +1,49 @@
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{% set Ipbs = [
+    {
+      title: firstIpbTitle,
+      text: firstIpbText,
+      imgUrl: firstIpbImageUrl
+    },
+    {
+      title: secondIpbTitle,
+      text: secondIpbText,
+      imgUrl: secondIpbImageUrl
+    }
+  ]
+%}
+
+{% block content %}
+  <main id="main-content" class="page-what-we-do" tabindex="-1">
+    {% include "partials/components/tl-title-bar.njk" %}
+    <div class="tl-container--small">
+      <div class="featured-text">
+        <div class="featured-text__title">
+          {{ featuredText }}
+        </div>
+        <div class="featured-text__content">
+          {{ content | safe }}
+        </div>
+      </div>
+      <div>
+        {% for item in Ipbs %}
+          {% set title = item.title %}
+          {% set text = item.text %}
+          {% set imgUrl = item.imgUrl %}
+          {% set isEven = loop.index % 2 == 0 %}
+          {% include "partials/components/tl-img-paragraph.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+    <div>
+      {% set imgUrl = linkBarImageUrl %}
+      {% set text = textBarText %}
+      {% set link = linkBarLink %}
+      {% include "partials/components/tl-link-bar.njk" %}
+    </div>
+  </main>
+{% endblock %}

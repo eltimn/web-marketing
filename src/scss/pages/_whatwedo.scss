@@ -1,0 +1,29 @@
+.page-what-we-do {
+  .featured-text {
+    margin-bottom: 40px;
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  .featured-text__title {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Gilroy Extra Bold';
+    margin-bottom: 30px;
+  }
+  .tl-mod-image-paragraph .tl-container{
+    width: 100%;
+  }
+  .tl-mod-image-paragraph__image img {
+    width: 350px;
+  }
+  .tl-mod-image-paragraph__content-text {
+    width: 350px;
+  }
+  .tl-mod-image-paragraph__content {
+    flex-direction: row-reverse;
+  }
+  .tl-mod-image-paragraph__content.odd {
+    flex-direction: row;
+  }
+}

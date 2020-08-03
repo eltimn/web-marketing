@@ -1,0 +1,21 @@
+.tl-title-bar {
+  background: var(--main-color);
+  padding: 45px 0;
+  margin-bottom: 85px;
+}
+.tl-title-bar__content {
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+.tl-title-bar__image {
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+}
+.tl-title-bar__title-text {
+  font-size: 50px;
+}
+.tl-title-bar__subtitle-text {
+  font-size: 18px;
+}

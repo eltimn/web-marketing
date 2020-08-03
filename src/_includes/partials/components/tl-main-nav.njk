@@ -1,0 +1,33 @@
+{% if navigation.items %}
+  <nav class="nav" aria-label="{{ariaLabel}}">
+    <ul class="tl-main-menu">
+      {% for item in navigation.items %}
+        {% set relAttribute = '' %}
+        {% set currentAttribute = '' %}
+        {% set featuredClass = '' %}
+
+        {% if item.featured %}{% set featuredClass = 'tl-btn' %}{% endif %}
+
+        {% if item.rel %}
+          {% set relAttribute = ' rel="' + item.rel + '"' %}
+        {% endif %}
+
+        {% if page.url == item.url %}
+          {% set currentAttribute = ' aria-current="page"' %}
+        {% endif %}
+
+        <li class="tl-main-menu__item">
+          <a href="{{ item.url }}"{{ relAttribute | safe }}{{ currentAttribute | safe }} class="{{featuredClass}}">
+            {{ item.text }}
+          </a>
+        </li>
+      {% endfor %}
+      <li class="tl-main-menu__item">
+        <a class="icon" href="{{ site.twitterUrl }}" target="_blank"></a>
+      </li>
+      <li class="tl-main-menu__item">
+        <a class="icon" href="{{ site.linkedinUrl }}" target="_blank"></a>
+      </li>
+    </ul>
+  </nav>
+{% endif %}

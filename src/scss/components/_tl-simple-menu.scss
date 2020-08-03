@@ -1,0 +1,18 @@
+.tl-simple-menu {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.tl-simple-menu--horizontal {
+  display: flex;
+}
+
+.tl-simple-menu--horizontal {
+  .tl-simple-menu__item {
+    margin-right: 15px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

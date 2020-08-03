@@ -14,7 +14,11 @@
 {% block content %}
   <main id="main-content" tabindex="-1">
     <article class="[ post ] [ h-entry ]">
-      {% include "partials/components/intro.njk" %}
+      {# {% include "partials/components/intro.njk" %} #}
+      {% set title = "Blog" %}
+      {% set subtitle = "Read all the latest musings and news from the Llamas." %}
+      {% set imageUrl = "/images/svg/blog.svg" %}}
+      {% include "partials/components/tl-title-bar.njk" %}
       <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
         {{ content | safe }}
       </div>

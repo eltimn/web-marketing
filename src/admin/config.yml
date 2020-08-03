@@ -21,7 +21,71 @@ collections:
           - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
+          - {label: "Featured text", name: "featuredText", widget: "string", default: "TradeLlama applies creative thinking and machine learning to large volume trade data, so asset managers can better understand the behavior of portfolio managers."}
+          - {label: "First Image/Pragraph Block - Title", name: "firstIpbTitle", widget: "string", default: "Who we are"}
+          - {label: "First Image/Pragraph Block - Text", name: "firstIpbText", widget: "string"}
+          - {label: "First Image/Pragraph Block - Url Button", name: "firstIpbButtonUrl", widget: "string"}
+          - {label: "First Image/Pragraph Image URL - Text", name: "firstIpbImageUrl", widget: "string", default: "/images/svg/whoweare.svg"}
+          - {label: "Second Image/Pragraph Block - Title", name: "secondIpbTitle", widget: "string", default: "What we do"}
+          - {label: "Second Image/Pragraph Block - Text", name: "secondIpbText", widget: "string", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli."}
+          - {label: "Second Image/Pragraph Image URL - Text", name: "secondIpbImageUrl", widget: "string"}
+          - {label: "Second Image/Pragraph Block - Url Button", name: "secondIpbButtonUrl", widget: "string"}
+      - name: "who-we-are"
+        label: "Who we are"
+        delete: false
+        file: "src/pages/who-we-are.md"
+        slug: "{{slug}}"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/whoweare.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Featured text", name: "featuredText", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "First Image/Pragraph Block - Title", name: "firstIpbTitle", widget: "string"}
+          - {label: "First Image/Pragraph Block - Text", name: "firstIpbText", widget: "markdown"}
+          - {label: "First Image/Pragraph Image URL - Text", name: "firstIpbImageUrl", widget: "string"}
+          - {label: "Second Image/Pragraph Block - Title", name: "secondIpbTitle", widget: "string"}
+          - {label: "Second Image/Pragraph Block - Text", name: "secondIpbText", widget: "markdown"}
+          - {label: "Second Image/Pragraph Image URL - Text", name: "secondIpbImageUrl", widget: "string"}
+          - {label: "Bar Link - Text", name: "textBarText", widget: "string"}
+          - {label: "Bar Link - Link", name: "linkBarLink", widget: "string"}
+          - {label: "Bar Link - Image URL", name: "linkBarImageUrl", widget: "string"}
+      - name: "what-we-do"
+        label: "What we do"
+        delete: false
+        file: "src/pages/what-we-do.md"
+        slug: "{{slug}}"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/whatwedo.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Featured text", name: "featuredText", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "First Image/Pragraph Block - Title", name: "firstIpbTitle", widget: "string"}
+          - {label: "First Image/Pragraph Block - Text", name: "firstIpbText", widget: "markdown"}
+          - {label: "First Image/Pragraph Image URL - Text", name: "firstIpbImageUrl", widget: "string"}
+          - {label: "Second Image/Pragraph Block - Title", name: "secondIpbTitle", widget: "string"}
+          - {label: "Second Image/Pragraph Block - Text", name: "secondIpbText", widget: "markdown"}
+          - {label: "Second Image/Pragraph Image URL - Text", name: "secondIpbImageUrl", widget: "string"}
+          - {label: "Bar Link - Text", name: "textBarText", widget: "string"}
+          - {label: "Bar Link - Link", name: "linkBarLink", widget: "string"}
+          - {label: "Bar Link - Image URL", name: "linkBarImageUrl", widget: "string"}
+      - name: "get-in-touch"
+        label: "Get I Touch"
+        delete: false
+        file: "src/pages/get-in-touch.md"
+        slug: "{{slug}}"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/who-we-are.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Title image", name: "imageUrl", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Contact column one", name: "contactOne", widget: "string"}
+          - {label: "Contact column two", name: "contactTwo", widget: "string"}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
@@ -31,6 +95,8 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Image URL", name: "imageUrl", widget: "string"}
       - {label: "Permalink Override (Pattern: '/your-slug/index.html')", name: "permalink", widget: "string", required: false}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
@@ -70,6 +136,8 @@ collections:
           - {label: "Enable Third Party Comments Area", name: "enableThirdPartyComments", widget: "boolean", default: false}
           - {label: "Payment Pointer (Web Monetization: https://bit.ly/2kTRI1b)", name: "paymentPointer", widget: "string"}
           - {label: "Favicon path (EG: /images/favicon.png)", name: "faviconPath", widget: "string"}
+          - {label: "Linked Url", name: "linkedinUrl", widget: "string"}
+          - {label: "Twitter Url", name: "twitterUrl", widget: "string"}
       - label: "Navigation"
         name: "nav"
         delete: false
@@ -82,6 +150,7 @@ collections:
               - {label: "Text", name: "text", widget: "string"}
               - {label: "Url", name: "url", widget: "string"}
               - {label: "Is url to external site?", name: "external", widget: "boolean", required: false}
+              - {label: "Is featured?", name: "featured", widget: "boolean", required: false}
       - label: "Theme Settings"
         name: "theme"
         delete: false

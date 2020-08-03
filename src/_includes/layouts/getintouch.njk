@@ -1,0 +1,31 @@
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{% block content %}
+  <main id="main-content" class="page-get-in-touch" tabindex="-1">
+    {% include "partials/components/tl-title-bar.njk" %}
+    <div class="tl-container tl-container--small">
+      <div class="tl-block-address">
+        <div class="tl-block-address__one">
+          {{ contactOne }}
+          <div>
+            <a class="icon" href="{{ site.twitterUrl }}" target="_blank"></a>
+            <a class="icon" href="{{ site.linkedinUrl }}" target="_blank"></a>
+          </div>
+        </div>
+        <div class="tl-block-address__two">
+          {{ contactTwo }}
+        </div>
+      </div>
+      <div>
+        {{ content | safe }}
+        {% include "partials/components/contact-form.njk" %}
+      </div>
+    </div>
+
+  </main>
+{% endblock %}
+
+{{ content | safe }}

@@ -1,0 +1,20 @@
+
+.tl-feature-bar {
+  display: flex;
+  justify-content:space-between;
+  background: var(--main-color);
+  padding: 45px 0;
+  margin-bottom: 85px;
+}
+
+.tl-feature-bar__content {}
+
+.tl-feature-bar--main {
+  background: var(--seconday-color);
+  .tl-feature-bar__text {
+    color: var(--color-font-contrast);
+    width: 575px;
+    font-size: 26px;
+    font-family: 'Gilroy Extra Bold';
+  }
+}
