@@ -28,9 +28,12 @@
           Keep connected
         </div>
         <p class="contact-text">Want to hear more from us? Or just see some pictures of llamas? Join our newsletter and llamaste!</p>
-        <form name="newsletter" method="POST" data-netlify="true" action="/thanks-newsletter" netlify-honeypot="bot-field">
-          <input type="text" placeholder="EMAIL" class="tl-input--simple" />
-          <button class="tl-btn tl-btn--negative">Subscribe</button>
+        <form name="newsletter" method="POST" data-netlify="true" action="/thanks-newsletter" netlify-honeypot="newsletter-bot-field">
+          <input type="text" placeholder="EMAIL" class="tl-input--simple" name="email" />
+          <span hidden>
+            <label>Don’t fill this out if you're human: <input name="newsletter-bot-field" /></label>
+          </span>
+          <button type="submit" class="tl-btn tl-btn--negative">Subscribe</button>
         </form>
       </div>
     </div>
