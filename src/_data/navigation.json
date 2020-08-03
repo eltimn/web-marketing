@@ -6,9 +6,20 @@
       "external": false
     },
     {
-      "text": "Contact",
-      "url": "/contact",
-      "external": false
+      "text": "Who we are",
+      "url": "/who-we-are"
+    },
+    {
+      "text": "What we do",
+      "url": "/what-we-do"
+    },
+    {
+      "text": "Blog",
+      "url": "/blog"
+    },
+    {
+      "text": "Get i touch",
+      "url": "/contact"
     }
   ]
 }
