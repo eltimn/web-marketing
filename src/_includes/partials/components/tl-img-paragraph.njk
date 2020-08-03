@@ -1,0 +1,26 @@
+{% set evenClass = '' %}
+
+{% if isEven %}
+  {% set evenClass = 'odd' %}
+{% endif %}
+
+<div class="tl-mod-image-paragraph">
+  <div class="tl-mod-image-paragraph__content tl-container {{evenClass}}">
+    <div class="tl-mod-image-paragraph__image">
+      <img src="{{imgUrl}}" width="380">
+    </div>
+    <div class="tl-mod-image-paragraph__text">
+      <h3 class="tl-mod-image-paragraph__title-text">
+        {{ title }}
+      </h3>
+      <div>
+        <p class="tl-mod-image-paragraph__content-text">
+          {{ text }}
+        </p>
+        {% if buttonUrl %}
+          <a href="{{buttonUrl}}" class="tl-btn">Find out more</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

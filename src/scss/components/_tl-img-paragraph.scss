@@ -1,0 +1,24 @@
+.tl-mod-image-paragraph {
+  margin-bottom: 85px
+}
+
+.tl-mod-image-paragraph__content {
+  display: flex;
+  justify-content: space-between;
+  &.odd {
+    flex-direction: row-reverse;
+  }
+}
+
+.tl-mod-image-paragraph__title-text {
+  color: var(--seconday-color);
+  font-size: 32px;
+  font-family: 'Gilroy Extra Bold';
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.tl-mod-image-paragraph__content-text {
+  width: 485px;
+  margin-bottom: 30px;
+}

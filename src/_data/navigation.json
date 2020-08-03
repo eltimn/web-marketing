@@ -6,9 +6,25 @@
       "external": false
     },
     {
-      "text": "Contact",
-      "url": "/contact",
+      "text": "Who we are",
+      "url": "/who-we-are",
       "external": false
+    },
+    {
+      "text": "What we do",
+      "url": "/what-we-do",
+      "external": false
+    },
+    {
+      "text": "Blog",
+      "url": "/blog",
+      "external": false
+    },
+    {
+      "text": "Get in touch",
+      "url": "/get-in-touch",
+      "external": false,
+      "featured": true
     }
   ]
 }

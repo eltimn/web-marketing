@@ -1,0 +1,21 @@
+.tl-link-bar {
+  background: var(--main-color);
+  width: 100%;
+  display: block;
+}
+
+.tl-link-bar__container {
+  height: 175px;
+  display: flex;
+  width: var(--width-container-content-small);
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center
+}
+
+.tl-link-bar__text {
+  font-size: 30px;
+  font-family: "Gilroy Extra Bold";
+  color: var(--seconday-color)
+}

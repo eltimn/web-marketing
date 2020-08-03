@@ -1,0 +1,25 @@
+.page-home {
+  .tl-main-header--fixed { 
+    display: none;
+    &.show {
+      display: block;
+    }
+  }
+  .tl-main-header {
+    margin-bottom: 50px;
+  }
+
+  .tl-mod-image-paragraph__content.tl-container {
+    width: var(--width-container-content-secundary);
+  }
+  .post-list {
+    margin-bottom: 45px;
+  }
+  .post-list__title {
+    text-align: center;
+  }
+
+  &.tl-bodytag {
+    padding-top: 0;
+  }
+}

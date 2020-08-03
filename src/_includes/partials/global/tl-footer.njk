@@ -1,0 +1,49 @@
+  <footer class="tl-main-footer">
+    <div class="tl-main-footer__container tl-container">
+      <div class="tl-main-footer__col1">
+        <img src="/images/svg/horizontal-logo-white.svg" width="165" alt="">
+        <p>{{ site.shortDesc }}</p>
+      </div>
+      <div class="tl-main-footer__col2">
+        <div class="tl-main-footer__title-col">Explore</div>
+        {% include "partials/components/tl-footer-nav.njk" %}
+      </div>
+      <div class="tl-main-footer__col3">
+        <div class="tl-main-footer__title-col">Connect with us</div>
+        <ul class="tl-simple-menu">
+          <li class="tl-simple-menu__item">
+            hello@tradellama.com +1 860-216-8105
+          </li>
+          <li class="tl-simple-menu__item">
+            15 Cody Lane East Chatham, NY 12060
+          </li>
+          <li class="tl-simple-menu__item">
+            <a class="icon" href="{{ site.twitterUrl }}" target="_blank"></a>
+            <a class="icon" href="{{ site.linkedinUrl }}" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="tl-main-footer__col4">
+        <div class="tl-main-footer__title-col">
+          Keep connected
+        </div>
+        <p class="contact-text">Want to hear more from us? Or just see some pictures of llamas? Join our newsletter and llamaste!</p>
+        <form name="newsletter" method="POST" data-netlify="true" action="/thanks-newsletter" netlify-honeypot="bot-field">
+          <input type="text" placeholder="EMAIL" class="tl-input--simple" />
+          <button class="tl-btn tl-btn--negative">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="tl-main-footer__container-secundary tl-container">
+      <div>
+        &copy; Copyright 2020 TradeLlama - All Rights Reserved.
+      </div>
+      <div>
+        <ul class="tl-simple-menu tl-simple-menu--horizontal">
+          <li class="tl-simple-menu__item"><a href="/cookies">Cookies</a></li>
+          <li class="tl-simple-menu__item"><a href="/terms">T&Cs</a></li>
+          <li class="tl-simple-menu__item"><a href="/privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>

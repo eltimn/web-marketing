@@ -9,17 +9,47 @@
 {# Post list content #}
 {% set postListHeading = postsHeading %}
 {% set postListItems = collections.postFeed %}
-
+{% set isHome = true %}
 {# Archive link #}
 {% if postListItems.length < collections.posts.length %} 
   {% set paginationNextText = archiveButtonText %}
   {% set paginationNextUrl = '/archive' %}
 {% endif %}
 
+{% set Ipbs = [
+    {
+      title: firstIpbTitle,
+      text: firstIpbText,
+      imgUrl: firstIpbImageUrl,
+      buttonUrl: firstIpbButtonUrl
+    },
+    {
+      title: secondIpbTitle,
+      text: secondIpbText,
+      imgUrl: secondIpbImageUrl,
+      buttonUrl: secondIpbButtonUrl
+    }
+  ]
+%}
 {% block content %}
   <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
-    {% include "partials/components/pagination.njk" %}
+    {% set text = featuredText %}
+    {% include "partials/components/tl-featured-bar.njk" %}
+
+    {% for item in Ipbs %}
+      {% set title = item.title %}
+      {% set text = item.text %}
+      {% set imgUrl = item.imgUrl %}
+      {% set buttonUrl = item.buttonUrl%}}
+      {% set isEven = loop.index % 2 == 0 %}
+      {% include "partials/components/tl-img-paragraph.njk" %}
+    {% endfor %}
+
+    <section class="blog-section tl-container">
+      {% include "partials/components/tl-post-list.njk" %}
+      {% include "partials/components/pagination.njk" %}
+    </section>
   </main>
 {% endblock %}
+{% block foot %}   <script src="/js/tl-scripts.js"></script> {% endblock %}
+  

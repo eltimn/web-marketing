@@ -1,0 +1,15 @@
+{% set currentLink = '#' %}
+
+{% if link %}
+  {% set currentLink = link %}
+{% endif %}
+<a href="{{currentLink}}" class="tl-link-bar">
+  <div class="tl-link-bar__container">
+    <div>
+        <img src="{{imgUrl}}" width="115">
+    </div>
+    <div class="tl-link-bar__text">
+      {{ text }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+.tl-btn {
+  font-family: 'Gilroy Extra Bold';
+  display: inline-block;
+  border: 2px solid var(--color-default-menu-text);
+  background: var(--main-color);
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: var(--color-default-menu-text);
+}
+
+.tl-btn:hover {
+  background-color: var(--color-default-menu-text);
+  color: var(--main-color);
+}
+
+.tl-btn--negative {
+  &:hover {
+    border: 2px solid var(--main-color);
+  }
+}

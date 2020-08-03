@@ -9,5 +9,7 @@
   "enableThirdPartyComments": false,
   "paymentPointer": "$ilp.uphold.com/MggmnFEyQqhk",
   "faviconPath": "/images/favicon.png",
-  "maxPostsPerPage": 5
+  "maxPostsPerPage": 5,
+  "linkedinUrl": "https://www.linkedin.com/company/tradellama/",
+  "twitterUrl": "https://twitter.com/TheTradeLlama"
 }

@@ -1,0 +1,17 @@
+  <div class="tl-title-bar">
+    <div class="tl-title-bar__content tl-container">
+      <div class="tl-title-bar__text">
+        {% if title %}
+          <h2 class="tl-title-bar__title-text">{{ title }}</h2>
+        {% endif %}
+        {% if subtitle %}
+          <p class="tl-title-bar__subtitle-text">{{ subtitle }}</p>
+        {% endif %}
+      </div>
+      <div class="tl-title-bar__image">
+        {% if imageUrl %}
+          <img src="{{imageUrl}}" width="280">
+        {% endif %}
+      </div>
+    </div>
+  </div>

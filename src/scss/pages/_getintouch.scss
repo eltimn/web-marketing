@@ -1,0 +1,24 @@
+.page-get-in-touch {
+  form {
+    max-width: 100%;
+    input {
+      height: 50px;
+    }
+    .tl-btn {
+      width: 235px;
+      height: 55px;
+      font-size: 14px;
+    }
+  }
+  .tl-container--small {
+    width: var(--width-container-content-small);
+    margin-bottom: 45px;
+  }
+  .question__label {
+    font-family: "Gilroy Extra Bold";
+  font-size: 32px;
+  }
+  .question__field {
+    width: 100%;
+  }
+}
