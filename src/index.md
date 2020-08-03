@@ -7,6 +7,6 @@ metaDesc: TradeLlama applies creative thinking and machine learning to large
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ""
-juju: xxxxxxxxxxxxs
+juju: xxxxxxxxxxxxs adfsdfsadf
 ---
 TradeLlama applies creative thinking and machine learning to large volume trade data, so asset managers can better understand the behavior of portfolio managers.
