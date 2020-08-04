@@ -1,6 +1,10 @@
 ---
 title: Ernest, & Authentic - Our CEO Wants You to Know Why We're Here
 date: 2020-07-30T16:51:31.694Z
+socialImage: /images/demo-image-1.jpg
+authorTwitter: NVisnapuu
+authorEmail: neil@tradellama.com
+authorLinkedin: neil-visnapuu-059464104
 tags:
   - neil-visnapuu
 ---
@@ -16,12 +20,12 @@ On that topic, yes! - my engineering team of the last 8 years and I have come to
 
 We’ll talk over the months to come a lot about clusters, or if I’m in front of a crowd, “centroids”. But what we’re really saying is, before you can evaluate / test on an absolute basis, you need to understand the relative trends. And there is no better way to do that, than to feed all the buying and selling into our platform.
 
-Most importantly, I also watched that aforementioned CEO lose his company later, and it’s something in the tech world we see in a way that feels unavoidable. That resonates, particularly now, and as we work with our clients, we aim to communicate our structural plans openly, be it capital rounds to grow the business, or how we price our deals in order to facilitate sustainable relationships.  Every engineer is here because they want to solve problems we know (firsthand) exist with our clients, and thus, we have an appreciation for how the business itself is capitalized and managed, is a strong determining factor in our ability to deliver on that, over many market cycles.  
+Most importantly, I also watched that aforementioned CEO lose his company later, and it’s something in the tech world we see in a way that feels unavoidable. That resonates, particularly now, and as we work with our clients, we aim to communicate our structural plans openly, be it capital rounds to grow the business, or how we price our deals in order to facilitate sustainable relationships.  Every engineer is here because they want to solve problems we know (firsthand) exist with our clients, and thus, we have an appreciation for how the business itself is capitalized and managed, is a strong determining factor in our ability to deliver on that, over many market cycles.
 
-A story I heard later about Al Shugart was his skepticism of a CFO being appointed CEO of rival firm - something I understand completely.  It reminds me of another business I was lucky enough to be part of, in the mid to late 90s.  DE Shaw was unlike anything I'd seen before or since - the culture was one where clearly the engineers were in charge - for better and yes, sometimes...well, for keeping it interesting.  The choice of a Berkely DB behind the Juno email service was something that could never happen in most current tech environments, where stack decision making is very much a populous affair.  But a culture where something like that happens, also is one where great things can occur, over and over again.  
+A story I heard later about Al Shugart was his skepticism of a CFO being appointed CEO of rival firm - something I understand completely.  It reminds me of another business I was lucky enough to be part of, in the mid to late 90s.  DE Shaw was unlike anything I'd seen before or since - the culture was one where clearly the engineers were in charge - for better and yes, sometimes...well, for keeping it interesting.  The choice of a Berkely DB behind the Juno email service was something that could never happen in most current tech environments, where stack decision making is very much a populous affair.  But a culture where something like that happens, also is one where great things can occur, over and over again.
 
-It's one of the reasons why we have both Rust and Go in our lineup.     
+It's one of the reasons why we have both Rust and Go in our lineup.
 
-And it's an indication that the engineers are most definitely in charge here.    
+And it's an indication that the engineers are most definitely in charge here.
 
 \-NV

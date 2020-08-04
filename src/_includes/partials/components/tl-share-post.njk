@@ -1,0 +1,32 @@
+<div class="share-post">
+  <ul class="share-post__list">
+    {% if authorTwitter %}
+    <li class="share-post__item-list">
+      <a href="https://twitter.com/{{ authorTwitter }}" class="share-post__button" target="_blank">
+        
+      </a>
+    </li>
+    {% endif %}
+    {% if authorFacebook %}
+    <li class="share-post__item-list">
+      <a href="https://www.facebook.com/{{ authorFacebook }}" class="share-post__button" target="_blank">
+        
+      </a>
+    </li>
+    {% endif %}
+    {% if authorEmail %}
+    <li class="share-post__item-list">
+      <a href="mailto:{{ authorEmail }}" class="share-post__button envelop">
+        
+      </a>
+    </li>
+    {% endif %}
+    {% if authorLinkedin %}
+    <li class="share-post__item-list">
+      <a href="https://www.linkedin.com/in/{{ authorLinkedin }}" class="share-post__button" target="_blank">
+        
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+</div>
