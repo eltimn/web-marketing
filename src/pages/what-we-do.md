@@ -12,8 +12,14 @@ firstIpbText: Asset managers cannot commission resources and budget for
   linger, particularly as the size of the firm grows.
 firstIpbImageUrl: /images/svg/client-considerations.svg
 secondIpbTitle: A Path Forward
-secondIpbText: Architecture that is designed for collaboration on trade data,
-  leveraging ML, real-world experience, and modern cloud-native tools.
+secondIpbText: >-
+  How you get there matters. Mixing and matching strategies (and their managers)
+  is a function of portfolio optimization. Need a more holistic view of a
+  manager. Being able to adjust models to the varying needs of the business
+  requires a specific type of trade consumption paradigm.
+
+
+  TradeLlama's architecture is designed for collaboration on trade data, leveraging ML, real-world experience, and modern cloud-native tools.
 secondIpbImageUrl: /images/svg/path-forward.svg
 textBarText: Now that you know what we do, find out more
 linkBarLink: /get-in-touch/index.html
