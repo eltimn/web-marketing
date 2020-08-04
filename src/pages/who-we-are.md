@@ -6,11 +6,23 @@ featuredText: The core team is made up of a small group of developers from
   across the globe, brought together to address specific trade surveillance
   issues.
 firstIpbTitle: Inception
-firstIpbText: How do my PMs contribute to my overall client management model?
-  How are PMs influenced by factors we don’t currently model or understand
-  (peers, market vol, asset flows, etc.)? If there is a baseline, can you warn
-  me when a PM is changing behavior? What about spoofing/ layering? Now that I
-  have seen what I wasn’t aware of, can you show me these other things?
+firstIpbText: >-
+  Some questions we are often asked: 
+
+
+  How do my PMs contribute to my overall client management model? 
+
+
+  How are PMs influenced by factors we don’t currently model or understand (peers, market vol, asset flows, etc.)? 
+
+
+  If there is a baseline, can you warn me when a PM is changing behavior? 
+
+
+  What about spoofing/ layering? 
+
+
+  Now that I have seen what I wasn’t aware of, can you show me these other things?
 firstIpbImageUrl: /images/svg/whoweare.svg
 secondIpbTitle: The Llamas
 secondIpbText: The core team has been together, working with trade data in a
