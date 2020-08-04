@@ -14,7 +14,7 @@ firstIpbImageUrl: /images/svg/client-considerations.svg
 secondIpbTitle: A Path Forward
 secondIpbText: >-
   How you get there matters. Mixing and matching strategies (and their managers)
-  is a function of portfolio optimization. Need a more holistic view of a
+  is a function of portfolio optimization. Firms need a more holistic view of a
   manager. Being able to adjust models to the varying needs of the business
   requires a specific type of trade consumption paradigm.
 
