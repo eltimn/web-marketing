@@ -5,16 +5,21 @@ title: What we do
 featuredText: "Apply creative thinking and machine learning to large volume
   trade data so that asset managers can better understand the behavior of
   portfolio managers. "
-firstIpbTitle: Client Considerations
-firstIpbText: How do my PMs contribute to my overall client management model?
-  How are PMs influenced by factors we don’t currently model or understand
-  (peers, market vol, asset flows, etc.)? If there is a baseline, can you warn
-  me when a PM is changing behavior? What about spoofing/ layering? Now that I
-  have seen what I wasn’t aware of, can you show me these other things?
+firstIpbTitle: What is the problem?
+firstIpbText: Asset managers cannot commission resources and budget for
+  initiatives that are not front-office facing, leveraging tools in demand for
+  capital management (vs. operational assessment and risk). Solvable problems
+  linger, particularly as the size of the firm grows.
 firstIpbImageUrl: /images/svg/client-considerations.svg
 secondIpbTitle: A Path Forward
-secondIpbText: Architecture that is designed for collaboration on trade data,
-  leveraging ML, real-world experience, and modern cloud-native tools.
+secondIpbText: >-
+  How you get there matters. Mixing and matching strategies (and their managers)
+  is a function of portfolio optimization. Firms need a more holistic view of a
+  manager. Being able to adjust models to the varying needs of the business
+  requires a specific type of trade consumption paradigm.
+
+
+  TradeLlama's architecture is designed for collaboration on trade data, leveraging ML, real-world experience, and modern cloud-native tools.
 secondIpbImageUrl: /images/svg/path-forward.svg
 textBarText: Now that you know what we do, find out more
 linkBarLink: /get-in-touch/index.html
