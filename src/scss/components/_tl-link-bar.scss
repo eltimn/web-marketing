@@ -24,3 +24,20 @@
 .tl-link-bar__arrow {
   margin-left: 25px;
 }
+
+@media only screen and (max-width: 800px) {
+  .tl-link-bar__container {
+    width: 100%;
+  }
+  .tl-link-bar__container {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+  .tl-link-bar__image {
+    margin-bottom: 20px;
+    img {
+      width: 200px;
+    }
+  }
+}

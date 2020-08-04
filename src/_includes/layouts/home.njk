@@ -42,7 +42,7 @@
       {% set title = item.title %}
       {% set text = item.text %}
       {% set imgUrl = item.imgUrl %}
-      {% set buttonUrl = item.buttonUrl%}}
+      {% set buttonUrl = item.buttonUrl%}
       {% set isEven = loop.index % 2 == 0 %}
       {% include "partials/components/tl-img-paragraph.njk" %}
     {% endfor %}
@@ -53,5 +53,5 @@
     </section>
   </main>
 {% endblock %}
-{% block foot %}   <script src="/js/tl-scripts.js"></script> {% endblock %}
+{% block foot %}   <script src="/js/tl-home-scripts.js"></script> {% endblock %}
   
