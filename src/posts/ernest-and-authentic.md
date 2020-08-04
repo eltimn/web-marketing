@@ -1,7 +1,7 @@
 ---
-title: Ernest, & Authentic - Our CEO Wants You to Know Why We're Here
-date: 2020-07-30T16:51:31.694Z
+title: "E(a)rnest & Authentic: Our CEO On Why We're Here"
 socialImage: /images/demo-image-1.jpg
+date: 2020-07-30T16:51:31.694Z
 authorTwitter: NVisnapuu
 authorEmail: neil@tradellama.com
 authorLinkedin: neil-visnapuu-059464104
