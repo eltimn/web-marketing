@@ -13,13 +13,16 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <article class="[ post ] [ h-entry ]">
-      {# {% include "partials/components/intro.njk" %} #}
-      {% set title = "Blog" %}
-      {% set subtitle = "Read all the latest musings and news from the Llamas." %}
-      {% set imageUrl = "/images/svg/blog.svg" %}}
-      {% include "partials/components/tl-title-bar.njk" %}
-      <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
+    {% set title = "Blog" %}
+    {% set subtitle = "Read all the latest musings and news from the Llamas." %}
+    {% set imageUrl = "/images/svg/blog.svg" %}
+    {% include "partials/components/tl-title-bar.njk" %}
+    <div class="tl-container--small">
+      <div class="tl-post__main-image">
+        <img src="{{socialImage}}" />
+      </div>
+      <h3 class="tl-post__title">{{ introHeading }}</h3> 
+      <div class="tl-post__content">
         {{ content | safe }}
       </div>
       {% if site.enableThirdPartyComments %}
@@ -28,24 +31,17 @@
           {% include "partials/global/third-party-comments.njk" %}
         </aside>
       {% endif %}
-      {% if tags %}
-        <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
-          <div class="inner-wrapper">
-            <div class="[ nav ] [ box-flex align-center ]">
-              <h2 class="font-base text-600 weight-mid">Filed under</h2>
-              <ul class="[ nav__list ] [ box-flex align-center pad-left-400 ] [ p-category ]">
-                {% for item in tags %}
-                  <li class="nav__item">
-                    <a href="/tags/{{ item }}">{{ item }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
+        <footer>
+          {% include "partials/components/tl-share-post.njk" %}
+          {% if tags %}
+            <div class="tl-tag-list">
+              <span>Tag:</span> 
+              {% for item in tags %}
+                <a href="/tags/{{ item }}">{{ item }}</a>
+              {% endfor %}
             </div>
-          </div>
+          {% endif %}
         </footer>
-      {% endif %}
-    </article>
+    </div>
   </main>
 {% endblock %}
-
-{{ content | safe }}

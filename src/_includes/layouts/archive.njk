@@ -5,12 +5,14 @@
 {% set introSummary %}{{ content | safe }}{% endset %}
 
 {# Post list content #}
-{% set postListHeading = 'All posts' %}
 {% set postListItems = collections.posts %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
+    {% set title = "Blog" %}
+    {% set subtitle = "Read all the latest musings and news from the Llamas." %}
+    {% set imageUrl = "/images/svg/blog.svg" %}
+    {% include "partials/components/tl-title-bar.njk" %}
+    {% include "partials/components/tl-post-list.njk" %}
   </main>
 {% endblock %}

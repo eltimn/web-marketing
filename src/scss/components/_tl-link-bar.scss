@@ -15,7 +15,12 @@
 }
 
 .tl-link-bar__text {
-  font-size: 30px;
+  font-size: 27px;
   font-family: "Gilroy Extra Bold";
-  color: var(--seconday-color)
+  color: var(--seconday-color);
+  display: flex;
+}
+
+.tl-link-bar__arrow {
+  margin-left: 25px;
 }

@@ -17,4 +17,12 @@
     font-size: 26px;
     font-family: 'Gilroy Extra Bold';
   }
+  .tl-feature-bar__content {
+    position: relative;
+  }
+  .tl-feature-bar__image {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+  }
 }

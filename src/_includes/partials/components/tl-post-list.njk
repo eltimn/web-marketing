@@ -1,18 +1,20 @@
 {% if postListItems.length %}
-  <section class="post-list tl-container ">
-    <h3 class="post-list__title">{{ postListHeading }}</h3>
-      <ol class="post-list__list" reversed>
+  <section class="tl-post-list tl-container ">
+    <h3 class="tl-post-list__title">{{ postListHeading }}</h3>
+      <ol class="tl-post-list__list" reversed>
         {% for item in postListItems %}
           {% if item.date.getTime() <= global.now %}
-            <li class="post-list__item">
+            <li class="tl-post-list__item">
+              <div class="tl-post-list__img">
+                <a href="{{ item.url }}" rel="bookmark">
+                  <img src="{{item.data.socialImage}}" />
+                </a>
+              </div>
               <h4>
-                <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
+                <a href="{{ item.url }}" class="tl-post-list__link" rel="bookmark">{{ item.data.title }}</a>
               </h4>
-              <p class="post-list__time">
-                <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-              </p>
               {% if item.data.sumary %}
-                <div class="post-list__summary">
+                <div class="tl-post-list__summary">
                   {{ item.data.sumary }}
                 </div>
               {% endif %}

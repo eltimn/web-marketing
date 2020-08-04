@@ -1,5 +1,5 @@
 ---
-title: Ernest, & Authentic - Our CEO Wants You to Know Why We're Here
+title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut ornare sapien, eget molestie risus. 
 date: 2020-07-30T16:51:31.694Z
 socialImage: /images/demo-image-1.jpg
 tags:
