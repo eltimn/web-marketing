@@ -27,3 +27,14 @@
     flex-direction: row;
   }
 }
+
+@media only screen and (max-width: 720px) {
+  .page-what-we-do {
+    .featured-text__title,
+    .featured-text__content {
+      padding-left: var(--padding-horizontal-mobile);
+      padding-right: var(--padding-horizontal-mobile);
+      text-align: center;
+    }
+  }
+}

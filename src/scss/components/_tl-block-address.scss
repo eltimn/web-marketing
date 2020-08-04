@@ -18,3 +18,12 @@
 .tl-block-address__two {
   width: 180px;
 }
+
+@media only screen and (max-width: 550px) {
+  .tl-block-address {
+    flex-direction: column;
+  }
+  .tl-block-address__one {
+    margin: 0 0 20px 0;
+  }
+}

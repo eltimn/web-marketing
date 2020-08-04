@@ -4,6 +4,9 @@
   background: var(--seconday-color);
   padding-top: 35px;
   padding-bottom: 20px;
+  form {
+    max-width: 100%;
+  }
 }
 
 .tl-main-footer__container {
@@ -20,37 +23,37 @@
   color: var(--color-font-contrast);
 }
 
-.tl-main-footer__col1,
-.tl-main-footer__col4 {
+.tl-main-footer__col-1,
+.tl-main-footer__col-4 {
   width: 250px;
 }
 
-.tl-main-footer__col1 {
+.tl-main-footer__col-1 {
   img {
     margin-bottom: 10px;
   }
 }
 
-.tl-main-footer__col2 {
+.tl-main-footer__col-2 {
   width: 100px;
 }
 
-.tl-main-footer__col2 .tl-simple-menu {
+.tl-main-footer__col-2 .tl-simple-menu {
   font-family: 'Gilroy Extra Bold';
 }
 
-.tl-main-footer__col2 .tl-simple-menu__item {
+.tl-main-footer__col-2 .tl-simple-menu__item {
   margin-bottom: 5px;
 }
 
-.tl-main-footer__col3 {
+.tl-main-footer__col-3 {
   width: 180px;
   .tl-simple-menu__item {
     margin-bottom: 10px;
   }
 }
 
-.tl-main-footer__col4 {
+.tl-main-footer__col-4 {
   .contact-text {
     margin-bottom: 10px;
   }
@@ -72,4 +75,69 @@
 
 .tl-main-footer__container  {
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 780px) {
+  .tl-main-footer__container {
+    flex-direction: column;
+  }
+  .tl-main-footer__col-2 {
+    display: none;
+  }
+  *[class*="tl-main-footer__col-"] {
+    width: 100%;
+    margin-bottom: var(--padding-horizontal-mobile);
+    text-align: center;
+  }
+  .tl-main-footer__container-secundary {
+    flex-direction: column;
+    text-align: center;
+    & > * {
+      margin-bottom: 10px;
+    }
+    .tl-simple-menu--horizontal {
+      display: inline-flex;
+    }
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1115px)  {
+  .tl-main-footer__container {
+    display: block;
+    overflow: hidden;
+  }
+  .tl-main-footer__col-1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .tl-main-footer__col-2 {
+    display: none;
+  }
+  .tl-main-footer__col-3,
+  .tl-main-footer__col-4 {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1115px)  {
+  .tl-main-footer__container {
+    display: block;
+    overflow: hidden;
+  }
+  .tl-main-footer__col-1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .tl-main-footer__col-2 {
+    display: block;
+  }
+  .tl-main-footer__col-3,
+  .tl-main-footer__col-2,
+  .tl-main-footer__col-4 {
+    width: 33%;
+    float: left;
+  }
 }

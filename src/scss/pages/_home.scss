@@ -23,3 +23,11 @@
     padding-top: 0;
   }
 }
+
+@media only screen and (max-width: 780px) {
+  .page-home {
+    .tl-main-header--fixed  {
+      display: none !important;
+    }
+  }
+}

@@ -22,3 +22,20 @@
   width: 485px;
   margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 720px) {
+  .tl-mod-image-paragraph {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .tl-mod-image-paragraph__image img {
+    width: 320px !important;
+  }
+  .tl-mod-image-paragraph__content {
+    flex-direction: column !important;
+  }
+  .tl-mod-image-paragraph__content-text {
+    width: 100% !important;
+  }
+}

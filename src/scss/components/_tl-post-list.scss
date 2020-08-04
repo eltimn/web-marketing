@@ -2,6 +2,7 @@
   margin-bottom: 40px;
   .tl-post-list__title {
     text-align: center;
+    font-size: 32px;
     margin-bottom: 30px;
   }
   .tl-post-list__list {
@@ -20,5 +21,31 @@
     display: block;
     color: var(--seconday-color);
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .tl-post-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    .tl-post-list__list {
+      flex-direction: column;
+    }
+    .tl-post-list__item {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    .tl-post-list__img {
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1023px)  {
+  .tl-post-list {
+    .tl-post-list__img {
+      height: auto;
+    }
   }
 }
