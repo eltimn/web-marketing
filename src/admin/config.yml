@@ -58,46 +58,46 @@ collections:
               default: "TradeLlama applies creative thinking and machine learning to large volume trade data, so asset managers can better understand the behavior of portfolio managers.",
             }
           - {
-              label: "First Image/Pragraph Block - Title",
+              label: "First Image/Paragraph Block - Title",
               name: "firstIpbTitle",
               widget: "string",
               default: "Who we are",
             }
           - {
-              label: "First Image/Pragraph Block - Text",
+              label: "First Image/Paragraph Block - Text",
               name: "firstIpbText",
               widget: "string",
             }
           - {
-              label: "First Image/Pragraph Block - Url Button",
+              label: "First Image/Paragraph Block - Url Button",
               name: "firstIpbButtonUrl",
               widget: "string",
             }
           - {
-              label: "First Image/Pragraph Image URL - Text",
+              label: "First Image/Paragraph Image URL - Text",
               name: "firstIpbImageUrl",
               widget: "string",
               default: "/images/svg/whoweare.svg",
             }
           - {
-              label: "Second Image/Pragraph Block - Title",
+              label: "Second Image/Paragraph Block - Title",
               name: "secondIpbTitle",
               widget: "string",
               default: "What we do",
             }
           - {
-              label: "Second Image/Pragraph Block - Text",
+              label: "Second Image/Paragraph Block - Text",
               name: "secondIpbText",
               widget: "string",
               default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli.",
             }
           - {
-              label: "Second Image/Pragraph Image URL - Text",
+              label: "Second Image/Paragraph Image URL - Text",
               name: "secondIpbImageUrl",
               widget: "string",
             }
           - {
-              label: "Second Image/Pragraph Block - Url Button",
+              label: "Second Image/Paragraph Block - Url Button",
               name: "secondIpbButtonUrl",
               widget: "string",
             }
@@ -114,6 +114,7 @@ collections:
               default: "layouts/whoweare.njk",
             }
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
           - {
               label: "SEO Meta Title",
               name: "metaTitle",
@@ -129,32 +130,32 @@ collections:
           - { label: "Featured text", name: "featuredText", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
-              label: "First Image/Pragraph Block - Title",
+              label: "First Image/Paragraph Block - Title",
               name: "firstIpbTitle",
               widget: "string",
             }
           - {
-              label: "First Image/Pragraph Block - Text",
+              label: "First Image/Paragraph Block - Text",
               name: "firstIpbText",
               widget: "markdown",
             }
           - {
-              label: "First Image/Pragraph Image URL - Text",
+              label: "First Image/Paragraph Image URL - Text",
               name: "firstIpbImageUrl",
               widget: "string",
             }
           - {
-              label: "Second Image/Pragraph Block - Title",
+              label: "Second Image/Paragraph Block - Title",
               name: "secondIpbTitle",
               widget: "string",
             }
           - {
-              label: "Second Image/Pragraph Block - Text",
+              label: "Second Image/Paragraph Block - Text",
               name: "secondIpbText",
               widget: "markdown",
             }
           - {
-              label: "Second Image/Pragraph Image URL - Text",
+              label: "Second Image/Paragraph Image URL - Text",
               name: "secondIpbImageUrl",
               widget: "string",
             }
@@ -178,6 +179,7 @@ collections:
               default: "layouts/whatwedo.njk",
             }
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
           - {
               label: "SEO Meta Title",
               name: "metaTitle",
@@ -193,32 +195,32 @@ collections:
           - { label: "Featured text", name: "featuredText", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
-              label: "First Image/Pragraph Block - Title",
+              label: "First Image/Paragraph Block - Title",
               name: "firstIpbTitle",
               widget: "string",
             }
           - {
-              label: "First Image/Pragraph Block - Text",
+              label: "First Image/Paragraph Block - Text",
               name: "firstIpbText",
               widget: "markdown",
             }
           - {
-              label: "First Image/Pragraph Image URL - Text",
+              label: "First Image/Paragraph Image URL - Text",
               name: "firstIpbImageUrl",
               widget: "string",
             }
           - {
-              label: "Second Image/Pragraph Block - Title",
+              label: "Second Image/Paragraph Block - Title",
               name: "secondIpbTitle",
               widget: "string",
             }
           - {
-              label: "Second Image/Pragraph Block - Text",
+              label: "Second Image/Paragraph Block - Text",
               name: "secondIpbText",
               widget: "markdown",
             }
           - {
-              label: "Second Image/Pragraph Image URL - Text",
+              label: "Second Image/Paragraph Image URL - Text",
               name: "secondIpbImageUrl",
               widget: "string",
             }
