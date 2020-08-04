@@ -1,6 +1,6 @@
 ---
 title: Get In Touch
-subtitle: Questions? Suggestions? Let us know how we can help.
+subtitle: Questions? Suggestions? Let us know how we can help.b
 permalink: /get-in-touch/index.html
 layout: layouts/getintouch.njk
 imageUrl: /images/svg/get-in-touch.svg
