@@ -18,10 +18,14 @@ firstIpbText: The core team, starting with a small group of committers to an
 firstIpbButtonUrl: /who-we-are
 firstIpbImageUrl: /images/svg/whoweare.svg
 secondIpbTitle: What we do
-secondIpbText: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veli.
+secondIpbText: Apply creative thinking and machine learning to large volume
+  trade data so that asset managers can better understand the behavior of
+  portfolio managers.   The largest asset managers in the world rely more on
+  lawyers and guesswork than actual data, when it comes to assessing their
+  critical assets (their people) and how and why they make decisions.    They
+  apply computational firepower to investment analysis, but due to economics and
+  legacy IT balkanization, very rarely does such rigor come to the middle and
+  back office.
 secondIpbButtonUrl: /what-we-do
 juju: axxxxxxxxxxxxs adfsdfsadfaaaa
 secondIpbImageUrl: /images/svg/whatwedo.svg
