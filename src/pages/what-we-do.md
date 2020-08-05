@@ -25,7 +25,7 @@ textBarText: Now that you know what we do, find out more
 linkBarLink: /get-in-touch/index.html
 linkBarImageUrl: /images/svg/get-in-touch.svg
 imageUrl: /images/svg/whatwedo.svg
-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+subtitle:
 ---
 The largest asset managers in the world rely more on lawyers and guesswork than actual data, when it comes to assessing their critical assets (their people) and how and why they make decisions.
 
