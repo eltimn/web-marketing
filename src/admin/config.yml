@@ -60,7 +60,7 @@ collections:
           - {
               label: "First Image/Paragraph Block - Title",
               name: "firstIpbTitle",
-              widget: "string"
+              widget: "string",
             }
           - {
               label: "First Image/Paragraph Block - Text",
@@ -113,7 +113,12 @@ collections:
               default: "layouts/whoweare.njk",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - {
+              label: "Subtitle",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
           - { label: "Image for title", name: "imageUrl", widget: "string" }
           - {
               label: "SEO Meta Title",
@@ -179,7 +184,12 @@ collections:
               default: "layouts/whatwedo.njk",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - {
+              label: "Subtitle",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
           - { label: "Image for title", name: "imageUrl", widget: "string" }
           - {
               label: "SEO Meta Title",
