@@ -29,3 +29,5 @@ For me, leading by example means going to our open channels and asking questions
 With my other two amazing co-founders, and the great team we have put together at TradeLlama, we get a chance to apply this same open communication to our clients. We want to learn your specific needs and find where we can help you grow.
 
 To discuss our offerings and explore a path forward, give us a call or send us an email, we’re happy to chat with you.
+
+\-DM
