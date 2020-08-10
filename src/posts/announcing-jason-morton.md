@@ -1,7 +1,7 @@
 ---
 title: Announcing Jason Morton
 socialImage: /images/twist-ios-upload-1-.jpeg
-date: 2021-08-04T06:50:00.000Z
+date: 2020-08-10T14:55:32.389Z
 authorTwitter: NVisnapuu
 authorEmail: neil@tradellama.com
 authorLinkedin: neil-visnapuu-059464104
