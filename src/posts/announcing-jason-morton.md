@@ -1,12 +1,17 @@
 ---
 title: Announcing Jason Morton
+socialImage: /images/twist-ios-upload-1-.jpeg
 date: 2021-08-04T06:50:00.000Z
-socialImage: /images/demo-image-1.jpg
 authorTwitter: NVisnapuu
 authorEmail: neil@tradellama.com
 authorLinkedin: neil-visnapuu-059464104
 tags:
-  - neil-visnapuu
+  - neil-visnapuu jason-morton
 ---
+The Llama team is excited to announce Jason Morton as our Chief Product Officer, with a special area of emphasis on applying our platform to issues around spoofing and layering.
 
-Coming soon
+Besides being a tenured professor in Math and Statistics at Penn State, he has a PhD in Math from Cal, an MA in Econ from Michigan, and was an undergrad at Harvard - where he has been a visiting scholar in Computer Science.
+
+Dr. Morton is also a former business partner of mine from back when we were seeding hedge funds together (very successfully I might add) in the Bay Area for Borton Hermeneutics. Ben (founder of Borton) would have Jason model various scenarios about our fund placements, and they seemed extremely daunting to me at the time. I didn't think there would ever be a place that engendered imposter syndrome in me more than DESCO, but Jason's work at BH had that same impact.
+
+So having him here is truly exciting, and we look forward to bringing to our clients the insights and product direction that only someone like Jason can provide.
